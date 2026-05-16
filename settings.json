@@ -14,25 +14,22 @@
   "cursor_shape": "bar",
   "cursor_blink": true,
 
-  // === AI Agent（保持当前） ===
+  // === AI Agent ===
   "agent": {
     "use_modifier_to_send": true,
     "model_parameters": [],
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4.1"
+      "provider": "claude-acp",
+      "model": "claude-sonnet-4-6"
     }
   },
   "agent_servers": {
-    "codex-acp": {
-      "type": "registry"
-    },
     "claude-acp": {
       "type": "registry"
     }
   },
   "features": {
-    "edit_prediction_provider": "copilot"
+    "edit_prediction_provider": "zed"
   },
   "show_edit_predictions": true,
 
